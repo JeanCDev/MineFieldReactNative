@@ -6,8 +6,8 @@ export default function Flag(props) {
     <View style={styles.container}>
       <View style={[styles.flagPole, props.bigger ? styles.flagPoleBigger : null]} />
       <View style={[styles.flag, props.bigger ? styles.flagBigger : null]} />
-      <View style={[styles.base1, props.bigger ? styles.flagBase1Bigger : null]} />
-      <View style={[styles.base2, props.bigger ? styles.flagBase2Bigger : null]} />
+      <View style={[styles.base1, props.bigger ? styles.base1Bigger : null]} />
+      <View style={[styles.base2, props.bigger ? styles.base2Bigger : null]} />
     </View>
   );
 }
